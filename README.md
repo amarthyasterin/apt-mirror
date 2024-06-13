@@ -1,4 +1,5 @@
 The step-by-step guide on this page will show you how to setup local apt repository server on Ubuntu 22.04 with apt-mirror command.
+--------------------------------------------------------------------------------------------------------------------------------------
 
 ×
 One of the reasons why you may consider setting up a local apt repository server is to minimize the bandwidth required if you have multiple instances of Ubuntu to update. Take for instance a situation where you have 20 or so servers that all need to be updated twice a week. You could save a great deal of bandwidth because all you need to do is to updates all your systems over a LAN from your local repository server.
