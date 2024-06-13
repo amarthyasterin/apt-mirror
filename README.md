@@ -99,7 +99,7 @@ Great, output above confirms that the mirroring is completed.
 ×
 In Ubuntu 22.04, there are some issue noticed with apt-mirror command like it does not mirror CNF folder, icon tar files and binary-i386, so to fix these issues, create a script with following content and execute it.
 
-$ vi fix-errors.sh
+$ vi script.sh
 #!/bin/bash
 
 cd /var/www/html/ubuntu/archive.ubuntu.com/ubuntu/dists
@@ -132,8 +132,8 @@ save and close the file.
 Script-Download-CNF-Folder-Binary-i386-Apt-Mirror-Ubuntu
 
 ×
-$ sudo chmod +x fix-errors.sh
-$ sudo bash fix-errors.sh
+$ sudo chmod +x script.sh
+$ sudo bash script.sh
 Note: We need to execute the above script only once.
 
 Next create the following symbolic link so that we can access repository over the browser as well.
